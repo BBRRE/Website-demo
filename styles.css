@@ -1,0 +1,27 @@
+nav{
+    background-color:#1f2937 ;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.links{
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 18px;
+}
+
+span > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo{
+    padding-left: 100px;
+    font-weight: bolder;
+}
