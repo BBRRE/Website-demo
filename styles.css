@@ -1,5 +1,9 @@
+body{
+    margin: 0;
+}
+
 nav{
-    background-color:#1f2937 ;
+    background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
     display: flex;
@@ -16,7 +20,7 @@ nav{
     font-size: 18px;
 }
 
-span > a{
+span.links a{
     text-decoration: none;
     color: inherit;
 }
@@ -24,4 +28,71 @@ span > a{
 .logo{
     padding-left: 100px;
     font-weight: bolder;
+    background-color: inherit;
+}
+
+.container1{
+    background-color: #1f2937;
+    display: flex;
+    height: 400px;
+    color: #f9faf8;
+    padding: 100px;
+    justify-content: space-around;
+    gap: 100px;
+    position:relative;
+}
+
+.container1 div{
+    font-size: 25px;
+
+
+
+}
+
+.container1 p{
+    font-size: 20px;
+}
+
+div.container1 img{
+    padding: 40px;
+}
+
+div.container1 button{
+    color: inherit;
+    background-color: rgb(54, 88, 201);
+    border: 0px;
+    border-radius: 9px;
+    width: 130px;
+    height: 50px;
+    position:absolute;
+    bottom: 140px;
+    font-size: 20px;
+}
+
+
+.container2{
+    display: flex;
+    padding: 100px;
+    margin-top: -90px;
+}
+
+.box{
+    border: 3px solid rgb(54, 88, 201);
+    height: 170px;
+    width: 170px;
+    border-radius: 9px ;
+}
+
+.subtext{
+    text-align: center;
+    padding-right: 80px;
+    margin-top: 5px;
+}
+
+.title2{
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    font-size: 39px;
+    margin-top: 90px;
 }
